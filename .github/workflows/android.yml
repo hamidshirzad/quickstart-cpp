@@ -206,4 +206,4 @@ jobs:
           cat build-results-android-${{ matrix.os }}.log
           if [[ "${{ job.status }}" != "success" ]]; then
             exit 1
-          fi
+          fi 
